@@ -1,0 +1,641 @@
+{
+  "AmountTransaction.dll": {
+    "D:\\.NetWorkspace\\AmountTransaction\\Program.cs": {
+      "Program": {
+        "System.Void Program::Main(System.String[])": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "14": 0,
+            "15": 0,
+            "18": 0,
+            "20": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 407,
+              "EndOffset": 277,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 407,
+              "EndOffset": 412,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Program::.cctor()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\.NetWorkspace\\AmountTransaction\\TransactionProcessor.cs": {
+      "AmountTransaction.Transaction": {
+        "System.String AmountTransaction.Transaction::get_Id()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime AmountTransaction.Transaction::get_Date()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String AmountTransaction.Transaction::get_Type()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal AmountTransaction.Transaction::get_Amount()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      },
+      "AmountTransaction.TransactionProcessor": {
+        "System.Collections.Generic.List`1<AmountTransaction.Transaction> AmountTransaction.TransactionProcessor::get_Transactions()": {
+          "Lines": {
+            "19": 8
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.TransactionProcessor::LoadTransactions(System.String)": {
+          "Lines": {
+            "27": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "37": 0,
+            "39": 0,
+            "42": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "55": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 19,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 61,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Decimal AmountTransaction.TransactionProcessor::GetTotalCredits()": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Decimal AmountTransaction.TransactionProcessor::GetTotalDebits()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 64,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.DateTime AmountTransaction.TransactionProcessor::GetDateOfHighestTransaction()": {
+          "Lines": {
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 50,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Decimal AmountTransaction.TransactionProcessor::GetAverageAmountPerDay()": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 115,
+              "EndOffset": 117,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 115,
+              "EndOffset": 124,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.IEnumerable`1<System.ValueTuple`2<System.DateTime,System.Decimal>> AmountTransaction.TransactionProcessor::GetTop5DatesWithHighestTotal()": {
+          "Lines": {
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.TransactionProcessor::.ctor()": {
+          "Lines": {
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\.NetWorkspace\\AmountTransaction\\AmountTransaction.Tests\\TransactionProcessorTests.cs": {
+      "AmountTransaction.Tests.TransactionProcessorTests": {
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::AllTransactions_ShouldHaveValidId()": {
+          "Lines": {
+            "23": 0,
+            "25": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 118,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 118,
+              "EndOffset": 120,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::AllTransactions_ShouldHaveValidType()": {
+          "Lines": {
+            "36": 0,
+            "38": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 83,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::AllTransactions_ShouldHaveValidDate()": {
+          "Lines": {
+            "49": 0,
+            "51": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0
+          },
+          "Branches": [
+            {
+              "Line": 54,
+              "Offset": 88,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::AllTransactions_ShouldHaveValidAmount()": {
+          "Lines": {
+            "62": 0,
+            "64": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 150,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_ShouldHaveValidId()": {
+          "Lines": {
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "85": 0,
+            "88": 0,
+            "89": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_ShouldHaveValidDate()": {
+          "Lines": {
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "104": 0,
+            "107": 0,
+            "108": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_ShouldHaveValidType()": {
+          "Lines": {
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "123": 0,
+            "126": 0,
+            "127": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_ShouldHaveNonNegativeAmount()": {
+          "Lines": {
+            "131": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "142": 0,
+            "145": 0,
+            "146": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_SetProperties_ShouldAssignValues()": {
+          "Lines": {
+            "150": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_SetNullableProperties_ShouldAllowNullValues()": {
+          "Lines": {
+            "169": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_SetNegativeAmount_ShouldBeAllowed()": {
+          "Lines": {
+            "187": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "198": 0,
+            "199": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_SetPositiveAmount_ShouldBeAllowed()": {
+          "Lines": {
+            "203": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "214": 0,
+            "215": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_Id_ShouldBeSetAndGetCorrectly()": {
+          "Lines": {
+            "219": 0,
+            "221": 0,
+            "222": 0,
+            "225": 0,
+            "226": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_Type_ShouldBeSetAndGetCorrectly()": {
+          "Lines": {
+            "230": 0,
+            "232": 0,
+            "233": 0,
+            "236": 0,
+            "237": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_Date_ShouldBeSetAndGetCorrectly()": {
+          "Lines": {
+            "241": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "248": 0,
+            "249": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_Amount_ShouldBeSetAndGetCorrectly()": {
+          "Lines": {
+            "253": 0,
+            "255": 0,
+            "256": 0,
+            "259": 0,
+            "260": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_WithDifferentData_ShouldBeUnique()": {
+          "Lines": {
+            "264": 0,
+            "266": 0,
+            "267": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::Transaction_CanBeUsedInCollections()": {
+          "Lines": {
+            "277": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "286": 0,
+            "289": 0,
+            "290": 0
+          },
+          "Branches": []
+        },
+        "System.Void AmountTransaction.Tests.TransactionProcessorTests::.ctor()": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\.NetWorkspace\\AmountTransaction\\Transaction.cs": {
+      "AmountTransaction.Tests.Transaction": {
+        "System.String AmountTransaction.Tests.Transaction::get_Id()": {
+          "Lines": {
+            "7": 21
+          },
+          "Branches": []
+        },
+        "System.DateTime AmountTransaction.Tests.Transaction::get_Date()": {
+          "Lines": {
+            "8": 17
+          },
+          "Branches": []
+        },
+        "System.String AmountTransaction.Tests.Transaction::get_Type()": {
+          "Lines": {
+            "9": 18
+          },
+          "Branches": []
+        },
+        "System.Decimal AmountTransaction.Tests.Transaction::get_Amount()": {
+          "Lines": {
+            "10": 24
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
